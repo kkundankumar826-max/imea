@@ -1,0 +1,26 @@
+export default function Courses(){
+  return (
+    <div>
+      <h2>Courses</h2>
+      <div className="grid">
+        <div className="card">
+          <h3>Basic Stock Market Course (Free)</h3>
+          <ul>
+            <li>What is Stock Market</li>
+            <li>How Trading Works</li>
+            <li>Demat and Brokerage</li>
+          </ul>
+        </div>
+
+        <div className="card">
+          <h3>Technical Analysis</h3>
+          <ul>
+            <li>Candlestick Patterns</li>
+            <li>Support & Resistance</li>
+            <li>Indicators: RSI, MACD</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  )
+}
