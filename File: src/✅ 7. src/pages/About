@@ -1,0 +1,10 @@
+export default function About(){
+  return (
+    <div>
+      <h2>About — Mr. Kundan</h2>
+      <div className="card">
+        <p>I am Mr. Kundan, founder of IMEA. My mission is to simplify stock market education for everyone.</p>
+      </div>
+    </div>
+  )
+}
