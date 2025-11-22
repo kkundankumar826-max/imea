@@ -1,0 +1,18 @@
+export default function Blogs(){
+  const posts = [
+    {title:'Stock Market क्या है?', excerpt:'Basics in simple Hindi.'},
+    {title:'Candlestick कैसे पढ़ें?', excerpt:'Most used patterns.'}
+  ]
+
+  return (
+    <div>
+      <h2>Blogs</h2>
+      {posts.map((p,i)=>(
+        <div key={i} className="card" style={{marginBottom:'12px'}}>
+          <h3>{p.title}</h3>
+          <p>{p.excerpt}</p>
+        </div>
+      ))}
+    </div>
+  )
+}
